@@ -6,10 +6,10 @@ import georgeWBot
 
 
 # enter the corresponding information from your Twitter application:
-CONSUMER_KEY = 'tpfrsZPgaoydKIPUX81HouFHg'  # keep the quotes, replace this with your consumer key
-CONSUMER_SECRET = 'mtYT0sN1N0iNWbjmOre5RrVZM2nWLC2itJDcfpWIyFe0SM5BFO'  # keep the quotes, replace this with your consumer secret key
-ACCESS_KEY = '778330535789670400-QnS4eyd5M9TAVsR16uLKthM9MVndAWW'  # keep the quotes, replace this with your access token
-ACCESS_SECRET = 'QCxlyxY4oOhUdQNGuXvGUYnvPghYelUCRPAyga2cVWOkt'  # keep the quotes, replace this with your access token secret
+CONSUMER_KEY = '****'  # keep the quotes, replace this with your consumer key
+CONSUMER_SECRET = '****'  # keep the quotes, replace this with your consumer secret key
+ACCESS_KEY = '****'  # keep the quotes, replace this with your access token
+ACCESS_SECRET = '****'  # keep the quotes, replace this with your access token secret
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.secure = True
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
